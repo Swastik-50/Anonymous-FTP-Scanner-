@@ -10,5 +10,5 @@ def check_anonymous_ftp(host):
         print(f"[-] {host} does not allow anonymous FTP")
         return False
 
-# Example usage
-check_anonymous_ftp('127.0.0.1')
+#usage
+check_anonymous_ftp('151.101.2.219') # Checking on website https://www.speedtest.net/
